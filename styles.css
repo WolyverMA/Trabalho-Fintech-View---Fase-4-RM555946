@@ -1,0 +1,50 @@
+body {
+    background: #f0f0f0;
+}
+
+.container-green {
+    background-color: #28a745;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    top: 0;
+    left: 0;
+}
+
+.text-center {
+    z-index: 1;
+    top: 0;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+form .form-control {
+    border-radius: 30px;
+    border: 1px solid #28a745;
+}
+
+form .form-control:focus {
+    box-shadow: none;
+    border-color: #28a745;
+}
+
+.btn-success {
+    border-radius: 30px;
+}
+
+.btn-light {
+    border-radius: 30px;
+}
+
+.container-blue {
+    background-color: #184381;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
